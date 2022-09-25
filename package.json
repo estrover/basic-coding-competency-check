@@ -1,0 +1,21 @@
+{
+  "name": "basic-coding-competency-check",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/estrover/basic-coding-competency-check.git",
+  "author": "thanaphot yasamuth",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node ./index.ts",
+    "build": "tsc --project ./tsconfig.json",
+    "test": "jest -c ./jest.unit.json"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.0.3",
+    "@types/node": "^18.7.20",
+    "jest": "^29.0.3",
+    "ts-jest": "^29.0.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.3"
+  }
+}
